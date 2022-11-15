@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/paperscript" src="js/sketch.js" canvas="myCanvas"></script>
+
+</head>
+
+<div>
+    <input type="radio" id="draw" name="mode">
+    <label for="draw">ペン</label>
+    <input type="radio" id="erase" name="mode">
+    <label for="draw">消しゴム</label>
+</div>
+<div>
+    <input type="button" id="downloadPng">
+</div>
+<br>
+
+<!-- お絵描きエリアの設定 -->
+<canvas id="canvas" height="500" width="500" style="border-style: solid; border-color: black;"></canvas>
+
+<!-- Fabric.jsの読み込み -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
+
+</html>
